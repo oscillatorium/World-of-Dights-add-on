@@ -10,10 +10,10 @@
       "type": "LaserBulletType",
       "damage": 20,
       "length": 320,
-      "width": 8,
+      "width": 24,
       "colors": ["4cc9f0", "4361ee", "ffffff"],
       "status": "number-chkrootkitDamage",
-      "statusDuration": 30,
+      "statusDuration": 2,
       "collidesGround": true,
       "collidesAir": true,
       "hitEffect": {
