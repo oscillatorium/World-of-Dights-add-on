@@ -13,7 +13,7 @@
       "length": 320,
       "width": 8,
       "colors": ["4cc9f0", "4361ee", "ffffff"],
-      "status": "chkrootkitDamage",
+      "status": "number-chkrootkitDamage",
       "statusDuration": 30,
       "collidesGround": true,
       "collidesAir": true,
