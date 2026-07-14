@@ -7,7 +7,7 @@
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
-    "byte": {
+    "number-byte": {
       "type": "LaserBulletType",
       "damage": 20,
       "length": 320,
@@ -45,10 +45,10 @@
     }
   },
   "requirements": [
-    {"item": "mov-item", "amount": 9},
-    {"item": "xor-item", "amount": 4},
-    {"item": "jmp-item", "amount": 2},
-    {"item": "cmp-item", "amount": 6}
+    {"item": "number-mov-item", "amount": 9},
+    {"item": "number-xor-item", "amount": 4},
+    {"item": "number-jmp-item", "amount": 2},
+    {"item": "number-cmp-item", "amount": 6}
   ],
   "category": "turret",
   "research": "research-asm"
