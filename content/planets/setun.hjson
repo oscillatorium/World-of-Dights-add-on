@@ -14,12 +14,14 @@ defaultCore: number-core-asm
 iconColor: "ff0000"
 orbitRadius: 5
 hasAtmosphere: true
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.5
 atmosphereColor: "ff0000"
 drawOrbit: true
 bloom: true
 updateLighting: true
 mesh: {
   type: "HexMesh"
-  radius: 0.5
+  radius: 0.4
   color: "ff0000"
 }
