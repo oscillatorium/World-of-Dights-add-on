@@ -20,13 +20,17 @@ bloom: true
 updateLighting: true
 mesh: {
   type: "NoiseMesh"
-  seed: 1
-  divisions: 0
+  seed: 7452
+  divisions: 3
   radius: 0.5
-  color1: "ff0000"
-  color2: "ff0000"
-  octaves: 0
-  persistence: 0
-  scale: 0
-  mag: 0
+  color1: "880000"
+  color2: "ff2222"
+  colorOct: 3
+  colorPersistence: 0.4
+  colorScale: 0.5
+  colorThreshold: 0.7
+  octaves: 3
+  persistence: 0.6
+  scale: 0.5
+  mag: 0.8
 }
