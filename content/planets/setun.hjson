@@ -14,6 +14,8 @@ defaultCore: number-core-asm
 iconColor: "ff0000"
 orbitRadius: 5
 hasAtmosphere: true
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.1
 atmosphereColor: "ff0000"
 drawOrbit: true
 bloom: true
@@ -21,16 +23,16 @@ updateLighting: true
 mesh: {
   type: "NoiseMesh"
   seed: 7452
-  divisions: 3
+  divisions: 5
   radius: 0.5
-  color1: "880000"
-  color2: "ff2222"
-  colorOct: 3
-  colorPersistence: 0.4
-  colorScale: 0.5
-  colorThreshold: 0.7
+  color1: "cc0000"
+  color2: "ff3333"
+  colorOct: 4
+  colorPersistence: 0.1
+  colorScale: 0.1
+  colorThreshold: 0.9
   octaves: 3
-  persistence: 0.6
-  scale: 0.5
-  mag: 0.8
+  persistence: 0.1
+  scale: 0.1
+  mag: 0.1
 }
