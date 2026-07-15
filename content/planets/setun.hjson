@@ -23,7 +23,7 @@ mesh: {
   seed: 7452
   divisions: 5
   radius: 0.5
-  color1: "330000"
+  color1: "ff0000"
   color2: "ff2222"
   colorOct: 4
   colorPersistence: 0.5
