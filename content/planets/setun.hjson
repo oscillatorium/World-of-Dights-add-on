@@ -3,7 +3,7 @@
   localizedName: "Сетунь"
   description: "Место, где код обретает форму, но в троичной системе."
   parent: "number-cyberia"
-  radius: 1.0
+  radius: 0.5
   generator: "none"
   sectorSize: 1
   accessible: true
@@ -13,7 +13,7 @@
   allowSectorInvasion: false
   defaultCore: number-core-asm
   iconColor: "ff0000"
-  orbitRadius: 90
+  orbitRadius: 5
   hasAtmosphere: true
   atmosphereColor: "ff0000"
   drawOrbit: true
@@ -23,7 +23,7 @@
     type: "NoiseMesh"
     seed: 7452
     divisions: 5
-    radius: 1.0
+    radius: 0.5
     color1: "000000"
     color2: "ff0000"
     colorOct: 4
